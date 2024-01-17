@@ -39,7 +39,7 @@
   
   /* Style the active/current link*/
   .header a.active {
-    background-color: dodgerblue;
+    background-color: rgb(57, 84, 152);
     color: white;
   }
   
@@ -58,4 +58,14 @@
     .header-left {
       float: none;
     }
+  }
+
+  .progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #3498db; /* Couleur de la barre de progression */
+    width: 0; /* La largeur sera ajustée dynamiquement en JavaScript */
+    transition: width 0.3s; /* Effet de transition */
   }
