@@ -69,3 +69,15 @@
     width: 0; /* La largeur sera ajustée dynamiquement en JavaScript */
     transition: width 0.3s; /* Effet de transition */
   }
+
+  .accueil{
+    top: 20px;
+  }
+
+  .circular-image {
+    border-radius: 50%; /* Applique la forme de cercle */
+    width: 150px; /* Ajustez la largeur selon vos besoins */
+    height: 150px; /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden; /* Assurez-vous que l'image reste à l'intérieur du cercle */
+    object-fit: cover; /* Ajuste la taille de l'image pour remplir le cercle */
+  }
