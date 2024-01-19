@@ -71,7 +71,9 @@
   }
 
   .accueil{
-    padding-top: 100px;
+    padding:20%;
+    width: 100%;
+    align-content: center;
   }
 
   .circular-image {
