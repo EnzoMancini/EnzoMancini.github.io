@@ -72,14 +72,13 @@
 
   .accueil{
     padding:20%;
-    width: 100%;
-    align-content: center;
+    
   }
 
   .circular-image {
     border-radius: 50%; /* Applique la forme de cercle */
-    width: 200px; /* Ajustez la largeur selon vos besoins */
-    height: 200px; /* Ajustez la hauteur selon vos besoins */
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
     overflow: hidden; /* Assurez-vous que l'image reste à l'intérieur du cercle */
     object-fit: cover; /* Ajuste la taille de l'image pour remplir le cercle */
   }
